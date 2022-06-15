@@ -5,6 +5,7 @@ body{
 h1{
     color:#025157;
     text-align:center;
+    font-family: 'Alegreya', serif;
 }
 
 p{
@@ -17,3 +18,93 @@ button{
     color:#FFF;
     background-color: #025157;
 }
+/*
+header a img{
+    height: 20px;
+    display: inline;
+}
+header a {
+    display: inline;
+}
+
+nav ul li{
+    text-decoration: none;
+    
+    display: inline;
+    margin: 2px 20px;
+    color:#025157;
+    
+}
+nav ul {
+    display: inline;
+    
+}
+
+header div{
+    margin:10px ;
+    text-align: right;
+}*/
+
+li{
+    display: inline;
+    
+}
+header{
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+   
+}
+header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+
+}
+
+.logo{
+    width:15%;
+
+}
+
+.logo > img{
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    height: 45px;
+   /* text-align: left;*/
+    color: #025157;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.navbar li{
+    margin: 0 25px;
+    color: #025157;
+}
+
+.actions{
+    width: 15%;
+    /*text-align: right;*/
+    font-size: 14px;
+
+}
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions a{
+    color: #67b54b;
+}
+.actions button{
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+.main{
+    margin-top: 140px;
+    text-align: center;
+}
+
